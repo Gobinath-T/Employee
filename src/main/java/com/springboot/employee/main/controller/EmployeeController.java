@@ -24,7 +24,7 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService employeeService;
 	
-	@GetMapping("/getEmployees")
+	@GetMapping("/getEmployeesDetails")
 	public List<Employee> getEmployees() {
 		return employeeService.getDetails();
 	}
